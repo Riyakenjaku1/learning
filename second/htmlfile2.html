@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles2.css">
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+    </style>
+
+    <title>Second Document</title>
+</head>
+
+<body style="background-color: bisque;">
+    <div id="div1">
+        <h1>css</h1>
+    </div>
+    <br>
+    <br>
+
+    <p class="para1">Use of div element</p>
+    <br>
+    <br>
+    <br>
+
+    <div class="gridcontainer">
+
+
+        <div id="div2">
+            <h2>london</h2>
+            <p>london is the capital city of england.</p>
+            <p>london has 16 million inhabitants.</p>
+        </div>
+
+        <div id="div3">
+            <h3>oslo</h3>
+            <p>oslo is the capital city of norway</p>
+            <p>it has about 600.00 million inhabitants</p>
+        </div>
+
+        <div id="div4">
+            <h4>rome </h4>
+            <p>rome is the capital city of italy</p>
+            <p>it have over 30 million inhabitants</p>
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <p class="para1">Use of padding</p>
+    <br>
+    <br>
+    <div class="box">
+        This is a box with padding.
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <p class="para1">Use of span element with class attribute</p>
+    <br>
+    <br>
+
+    <div>
+        <h5>This is <span class="note">important </span>heading. </h5>
+        <br>
+        <p class="para2">This is <span class="note">important </span>text</p>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <p class="para1">Multiple class</p>
+    <br>
+    <br>
+    <h6 class="city main">London</h6>
+    <br>
+    <h6 class="city">Paris</h6>
+    <br>
+    <h6 class="city">Tokyo</h6>
+    <br>
+    <br>
+
+    <p class="para1">Cascading order</p>
+    <br>
+    <br>
+
+    <p>
+        Hello! Here we are testing how the casding order in html works.
+        <br>
+    </p>
+    <ul style="padding-left: 30px;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+
+    <p class="para1">Horizontal navigation links</p>
+    <br>
+    <br>
+
+    <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about us">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <br>
+    <br>
+    <br>
+
+
+    <marquee behavior="" direction="">
+        <img src="assets/natures-beauty-captured-colorful-flower-close-up-generative-ai.jpg" alt="flowers" class="image">
+
+    </marquee>
+
+
+
+    <br>
+    <br>
+    <br>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7w5Vfjozzb8?si=f_ZtOrbVblaUVTsF"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <p class="para1">FLEX BOXES</p>
+    <br>
+    <br>
+
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="flex-container2">
+        <div>.</div>
+    </div>
+    <br>
+    <br>
+
+    <p class="para1">GRID</p>
+    <br>
+    <br>
+
+
+    <div class="grid-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+        <div>13</div>
+        <div>14</div>
+        <div>15</div>
+        <div>16</div>
+        <div>17</div>
+        <div>18</div>
+        <div>19</div>
+        <div>20</div>
+    </div>
+
+    <script>
+        // Get all <div> elements inside .grid-container
+        const divs = document.querySelectorAll('.grid-container div');
+
+        // Add the 'grid-item' class to each <div> element
+        divs.forEach(div => {
+            div.classList.add('grid-item');
+        });
+    </script>
+
+    <br>
+    <br>
+    <br>
+    <marquee behavior="" direction="">
+        <div style="display: flex; flex-direction: row;" class="marquee-div">
+            <img src="./assets\1_iQhzIW0ZffqWaTI10ywLsA.jpg" alt="spider-man">
+            <img src="./assets/81F5PF9oHhL._AC_UF8941000_QL80_.jpg" alt="john wick">
+            <img src="./assets/film-poster-graphic-design.jpg" alt="beauty and the beast">
+            <img src="./assets/itofficialposter-1024x1518.jpg" alt="IT">
+            <img src="./assets/movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg" alt="after">
+        </div>
+    </marquee>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
