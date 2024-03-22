@@ -1,0 +1,90 @@
+body{
+    padding: 64px 284px;
+}
+
+.firstdiv{
+    background-color: blue;
+    
+}
+
+.heading1{
+    font-family: 'Inter', sans-serif;
+    color: #2C384A;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    
+}
+
+.para1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #4B5665;
+    font-size: 14px;
+    margin-right: 2rem;
+    
+}
+
+.seconddiv{
+    display: flex;
+    height: 20px;
+    align-items: center;
+
+}
+
+.seconddiv img{
+    margin-right: 1rem;
+}
+
+.para2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #4B5665;
+    font-size: 14px;
+    right: 320px;
+    position: absolute;
+}
+
+.thirddiv{
+    display: flex;
+    padding-top:1 rem ;
+}
+
+.para3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #4B5665;
+    font-size: 13px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.fourthdiv{
+    display: flex;
+}
+
+.para4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #727D87;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.para4::after {
+    content: ">";
+    margin-left: 5px;
+    font-weight: bolder;
+}
+
+.para4:last-child::after {
+    content: none;
+}
+
+.fifthdiv{
+    border: 2px  #FF7724;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: insert 0 0 0 10px #FF7724;
+    width: 136px;
+    height: 36px;
+}
